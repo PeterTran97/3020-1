@@ -1,0 +1,544 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Switchies Home </title>
+		
+		<meta charset="utf-8"> <!--Character encoding-->
+		<meta name="viewport" content="width=device-width", inital-scale=1> <!--Controls the size of the display/"viewport"-->
+		
+		<!--Bootstrap css and js referrance-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="Style/StyleSheet.css">
+	</head>
+	
+	<body>
+		<!--Navagation Bar-->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+			<div class="container-fluid">
+				<!--Image logo-->
+				<a class="navbar-brand" href="index.html">
+					<img src="Images/Logo.png" alt="Logo" style="width:60px;" class="rounded-pill">
+				</a>
+				
+				<span class="navbar-text"> Switchies </span>
+				
+				<!--Collapseable navbar-->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!--Navagation bar contents-->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item" style="padding-left: 20px;">
+							<a class="nav-link" href="#"> Shop </a>
+						</li>
+						
+						<li class="nav-item dropdown" style="padding-left: 20px;">
+							<a class="nav-link dropdown-toggle" href="Products" role="button" data-bs-toggle="dropdown"> Bands </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#"> Akko </a></li>
+								<li><a class="dropdown-item" href="#"> Kailh </a></li>
+								<li><a class="dropdown-item" href="#"> Outemu </a></li>
+								<li><a class="dropdown-item" href="#"> Gateron </a></li>
+								<li><a class="dropdown-item" href="#"> Glorious </a></li>
+								<li><a class="dropdown-item" href="#"> Cherry MX </a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav  ms-auto w-100 justify-content-end">
+						<li style="padding-right: 20px;">
+							<form class="d-flex navbar-right">
+								<input class="form-control me-2" type="text" placeholder="Search">
+								<button class="btn btn-primary" type="button">Search</button>
+							</form>
+						</li>
+						<li>
+							<button type="button" class="btn btn-primary navbar-right">
+								<img src="Images/ShoppingCart.png" alt="Cart" style="height:20px">
+								Cart 
+							</button>
+						</li>
+					</ul>
+					
+					
+					
+				</div>
+			</div>
+		</nav>
+		
+		<!--Main body contents-->
+		<img src="Images/Banner.png" alt="Banner" style="height:430px">
+		<div class="Introduction">
+			<h1><u> Switchies </u></h1><br>
+			<p>
+				Welcome to <b><u>Switchies</u></b> the best online store with the largest collections of mechanical switches. You will be able to find all of the most popular switches from Gateron to Holy Pandas and any information relating to these switches for your next keyboard build. We offer your traditional liniar, tactile, and clickys, our switches comes in either 36 pieces, 72 pieces or 108 pieces.
+			</p>
+		</div>
+		
+		<div class="PopularItems">
+			<h1><u> Most Popular Switches </u></h1>
+			
+			<div class="grid-container">
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Glorious Panda </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/GloriousPanda.jpg" alt="Glorious Panda">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 67g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Tactile </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 2mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4mm </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $52 </td>
+							<td id="ItemCost" style="width:30%"> $104 </td>
+							<td id="ItemCost" style="width:30%"> $156 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Gateron Milky Yellow </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/GateronYellow.jpg" alt="Gateron Milky Yellow">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 50g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Linear	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 2mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4mm </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $25 </td>
+							<td id="ItemCost" style="width:30%"> $50 </td>
+							<td id="ItemCost" style="width:30%"> $75 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Gateron Oil King Black </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/GateronBlack.jpg" alt="Gateron Oil King Black">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:50%"> Actuation Force: </td>
+							<td style="width:30%"> 55g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Linear	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 2mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4mm </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $40 </td>
+							<td id="ItemCost" style="width:30%"> $80 </td>
+							<td id="ItemCost" style="width:30%"> $120 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Akko CS Snow Blue Gray </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/AkkoSnowBlue.jpg" alt="Akko CS Snow Blue Gray">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 43g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Linear	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 1.9mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4mm </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $33 </td>
+							<td id="ItemCost" style="width:30%"> $66 </td>
+							<td id="ItemCost" style="width:30%"> $99 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Akko Sakura </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/AkkoSakura.jpg" alt="Akko Sakura">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 39g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Linear	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 1.9mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4mm </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $42 </td>
+							<td id="ItemCost" style="width:30%"> $84 </td>
+							<td id="ItemCost" style="width:30%"> $126 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Keychron Low Profile Blue </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/KeychronLowBlue.jpg" alt="Keychron Low Profile Blue">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 48g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Clicky	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 1.1mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 2.5 </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $51 </td>
+							<td id="ItemCost" style="width:30%"> $102 </td>
+							<td id="ItemCost" style="width:30%"> $153 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Akko POM Brown </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/AkkoPomBrown.jpg" alt="Akko POM Brown">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 50g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Tactile	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 1.9mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4mm </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $22 </td>
+							<td id="ItemCost" style="width:30%"> $44 </td>
+							<td id="ItemCost" style="width:30%"> $66 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="grid-item">
+					<table>
+						<tr>
+							<b> Star Polaris Purple </b>
+						</tr>
+						<tr>
+							<img class="ItemPic" src="Images/StarPolarisPurple.jpg" alt="Star Polaris Purple">
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Actuation Force: </td>
+							<td style="width:30%"> 67g </td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Type: </td>
+							<td style="width:30%"> Linear	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Pre Travel: </td>
+							<td style="width:30%"> 2mm	</td>
+						</tr>
+						<tr>
+							<td id="ItemDetails" style="width:70%"> Total Travel: </td>
+							<td style="width:30%"> 4 </td>
+						</tr>
+					</table>
+					<br>
+					<p><b><u> Price </u></b></p>
+					<table>
+						<tr>
+							<td id="ItemCost" style="width:30%"> 36p </td>
+							<td id="ItemCost" style="width:30%"> 72p </td>
+							<td id="ItemCost" style="width:30%"> 108p </td>
+						</tr>
+						<tr>
+							<td id="ItemCost" style="width:30%"> $36 </td>
+							<td id="ItemCost" style="width:30%"> $72 </td>
+							<td id="ItemCost" style="width:30%"> $108 </td>
+						</tr>
+					</table>
+					<br>
+					<table>
+						<tr>
+							<td id="OrderDetails">
+								<label for="dropdown"> Amount </label>
+								<select id="dropdown" name="dropdown">
+									<option value="option1"> 36 </option>
+									<option value="option2"> 72 </option>
+									<option value="option3"> 108 </option>
+								</select>
+							</td>
+							<td>
+								<button type="button"> Add To Cart </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+		<div class="SimilarProduct">
+			<h1><u> Related Products </u></h1>
+				
+			<div>
+			</div>
+		</div>
+	</body>
+</html>

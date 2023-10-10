@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+}
+
+.Introduction {
+	color: white;
+	padding-top: 80px;
+	padding-left: 200px;
+	padding-right: 200px;
+	text-align: center;
+}
+
+.PopularItems{
+	color: white;
+	padding: 100px;
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+	gap: 50px; /* Adjust the gap between items */
+	padding-top: 50px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive 3-column layout */
+}
+
+.grid-item {
+	padding: 20px;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	background-color: #000000;
+}
+
+.ItemPic {
+	width:210px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#ItemDetails {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#ItemCost {
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:5px;
+}
+
+#OrderDetails {
+	padding-left:10px;
+	padding-right:15px;
+}
+
+.SimilarProduct {
+	
+	
+}

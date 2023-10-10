@@ -1,0 +1,5 @@
+ITEC3020 Assignment 1
+Student #: 214395966
+Peter Tran
+
+Note: I assumed that we only had to make a single page of a website. And for the git intergration I was unclear if this needed to be source controlled or if it needed to be a hosted by github as a website.
